@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  /* Design System Iqbal Photography */
+  --color-brand-gold: #C8A96A;
+  --color-brand-dark: #1A1A1A;
+  --color-brand-gray: #6B7280;
+  --color-brand-light: #F7F7F7;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --radius-xl: 1rem;
+}
+
+/* Custom Utilities untuk Elegant Feel */
+@utility glass-morphism {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
