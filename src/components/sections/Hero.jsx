@@ -20,10 +20,10 @@ export default function Hero() {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="relative z-10 text-center text-white px-4"
       >
-        <h1 className="font-serif text-5xl md:text-8xl mb-6 tracking-tight">
+        <h1 className="font-serif text-5xl md:text-7xl mb-6 tracking-tight">
           Capturing Your <span className="italic font-light">Elegant Moments</span>
         </h1>
-        <p className="font-sans text-lg md:text-xl mb-10 opacity-90 max-w-2xl mx-auto font-light tracking-wide">
+        <p className="font-sans text-lg md:text-lg mb-10 opacity-90 max-w-2xl mx-auto font-light tracking-wide">
           Wedding, Prewedding & Event Photography based in Malang.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

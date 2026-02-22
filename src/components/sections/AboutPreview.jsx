@@ -7,7 +7,7 @@ export default function AboutPreview() {
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
         <div className="w-full md:w-1/2">
           <img 
-            src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?q=80&w=2070&auto=format&fit=crop" 
+            src="/masiqbal.webp" 
             className="rounded-xl shadow-2xl w-full h-[500px] object-cover"
             alt="Iqbal Photographer"
             />

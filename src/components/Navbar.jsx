@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link 
               key={item.name} 
               to={item.path} 
-              className="text-sm uppercase tracking-widest hover:text-brand-gold transition-colors"
+              className="text-sm   tracking-widest hover:text-brand-gold transition-colors"
             >
               {item.name}
             </Link>

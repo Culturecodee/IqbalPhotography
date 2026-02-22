@@ -27,7 +27,7 @@ const servicesData = [
       'PROFESSIONAL COLOR GRADING FOR A CINEMATIC FINISH',
       'HIGH-RESOLUTION DIGITAL GALLERY & LARGE CANVAS PRINT'
     ],
-    image: 'https://images.unsplash.com/photo-1583939411023-14782f7415b1?q=80&w=1000&auto=format&fit=crop'
+    image: '/prewedding.webp'
   }
 ];
 
@@ -45,7 +45,7 @@ export default function ServicesSection() {
       <div className="container mx-auto">
         
         {/* Header: Title & Navigation */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-2">
           <div>
             <span className="text-brand-gold tracking-[0.4em] text-xs font-bold">{current.tag}</span>
             <h2 className="font-serif text-4xl md:text-5xl mt-2 tracking-tight">MY PHOTOGRAPHY SERVICES</h2>
@@ -60,9 +60,11 @@ export default function ServicesSection() {
                 →
               </button>
             </div>
-            <button className="bg-brand-dark text-white px-8 py-3 rounded-lg text-xs uppercase tracking-widest hover:bg-brand-gold transition-colors">
+            <a href="/services#ServicesMore">
+              <button className="bg-brand-dark text-white px-8 py-3 rounded-lg text-xs uppercase tracking-widest hover:bg-brand-gold transition-colors">
               View All Services →
-            </button>
+              </button>
+              </a>
           </div>
         </div>
 
@@ -74,7 +76,7 @@ export default function ServicesSection() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
             transition={{ duration: 0.5 }}
-            className="flex flex-col lg:flex-row gap-12 items-center"
+            className="flex flex-col lg:flex-row gap-12 justify-center items-center"
             >
             {/* Left Side: Text */}
             <div className="w-full lg:w-1/2 space-y-8">
