@@ -6,7 +6,6 @@ A premium photography studio based in Malang, Indonesia. We craft visual stories
 ---
 
 ## 📸 Preview
-![Iqbal Photography Preview](https://iqbal-photography.vercel.app/hero-wedding.webp)
 *View Live: [iqbal-photography.vercel.app](https://iqbal-photography.vercel.app)*
 
 ## 📖 Overview
