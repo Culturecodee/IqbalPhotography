@@ -14,10 +14,10 @@ export default function Reveal({
   duration = 1 
 }) {
   const directions = {
-    up: { y: 40, x: 0 },
-    down: { y: -40, x: 0 },
-    left: { x: 40, y: 0 },
-    right: { x: -40, y: 0 },
+    up: { y: 20, x: 0 },
+    down: { y: -20, x: 0 },
+    left: { x: 20, y: 0 },
+    right: { x: -20, y: 0 },
     fade: { x: 0, y: 0 },
   };
 
@@ -25,7 +25,7 @@ export default function Reveal({
     <motion.div
       initial={{ 
         opacity: 0, 
-        filter: "blur(10px)",
+        filter: "blur(2px)",
         x: directions[direction].x, 
         y: directions[direction].y 
       }}

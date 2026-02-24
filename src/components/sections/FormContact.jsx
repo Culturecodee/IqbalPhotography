@@ -12,6 +12,11 @@ export default function FormContact() {
     budget: '',
   });
 
+  const PhoneNumber = {
+    name: 'BOOK NOW',
+    link: 'https://wa.me/6281216681765'
+  }
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };

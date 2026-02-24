@@ -5,6 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/sections/ScrollToTop';
+import ButtonWa from './components/ButtonWa/ButtonWa'
 // import page lainnya...
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop/>
       <Navbar />
+      <ButtonWa/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
