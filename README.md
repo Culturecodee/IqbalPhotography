@@ -19,9 +19,7 @@ This repository contains the official **Iqbal Photography** portfolio website â€
 | Technology | Purpose |
 | :--- | :--- |
 | **Vite + React** | Fast development, SPA architecture, and modern routing |
-| **JavaScript** | Core logic and component functionality |
 | **Tailwind CSS v4** | CSS-first utility styling with modern design system |
-| **shadcn/ui** | Accessible UI primitives (Cards, Buttons, Inputs) |
 | **Framer Motion** | Elegant scroll reveals, transitions, and micro-interactions |
 
 ## âœ¨ Features
