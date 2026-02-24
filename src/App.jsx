@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/services#ServicesMore" element={<Services />} />
         <Route path="/contact" element={<Contact/>} />
         {/* Tambahkan rute lain di sini */}
       </Routes>

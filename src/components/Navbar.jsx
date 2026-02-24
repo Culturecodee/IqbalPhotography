@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed w-full bg-white/80 backdrop-blur-md z-[100] border-b border-gray-100">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-20 py-6 flex justify-between items-center">
         
         {/* LOGO */}
         <Link to="/" className="font-serif text-xl font-bold tracking-tighter">
