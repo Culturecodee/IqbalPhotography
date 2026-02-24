@@ -1,16 +1,47 @@
-# React + Vite
+# IQBAL PHOTOGRAPHY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Capturing Your Elegant Moments
+A premium photography studio based in Malang, Indonesia. We craft visual stories, cinematic wedding documentation, and elegant pre-wedding sessions that combine modern aesthetic with emotional storytelling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
+![Iqbal Photography Preview](https://iqbal-photography.vercel.app/hero-wedding.webp)
+*View Live: [iqbal-photography.vercel.app](https://iqbal-photography.vercel.app)*
 
-## React Compiler
+## 📖 Overview
+This repository contains the official **Iqbal Photography** portfolio website — a modern, white-elegant marketing site built to showcase premium photography services. The design is intentional: clean, minimal, and focused on high-quality visual conversion. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Purpose:** A production-ready portfolio that demonstrates high standards for typography, layout, motion, and conversion-focused UI/UX. Built specifically for the premium wedding market in Malang.
 
-## Expanding the ESLint configuration
+## ⚙️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Purpose |
+| :--- | :--- |
+| **Vite + React** | Fast development, SPA architecture, and modern routing |
+| **JavaScript** | Core logic and component functionality |
+| **Tailwind CSS v4** | CSS-first utility styling with modern design system |
+| **shadcn/ui** | Accessible UI primitives (Cards, Buttons, Inputs) |
+| **Framer Motion** | Elegant scroll reveals, transitions, and micro-interactions |
+
+## ✨ Features
+
+* **White Elegant Design** — Clean theme, gold accents, and refined serif typography.
+* **Fully Responsive** — Seamless experience across mobile, tablet, and desktop.
+* **Smooth Navigation** — Custom smooth-scroll with duration control (No Refresh).
+* **Lead Generation** — Conversion-focused forms and floating WhatsApp integration.
+* **Bento-style Gallery** — Dynamic photo grid with hover effects and cinematic layouts.
+* **Performance Optimized** — WebP image support and fast-loading components.
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone [https://github.com/Culturecodee/IqbalPhotography.git](https://github.com/Culturecodee/IqbalPhotography.git)
+cd IqbalPhotography
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
