@@ -42,7 +42,7 @@ export default function ServicesSection() {
   return (
     <Reveal>
     <section className="py-24 bg-white text-brand-dark px-6 overflow-hidden">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-6 lg:px-24">
         
         {/* Header: Title & Navigation */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-2">

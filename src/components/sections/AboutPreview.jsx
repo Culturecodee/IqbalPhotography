@@ -4,7 +4,7 @@ export default function AboutPreview() {
   return (
   <Reveal>
     <section id="AboutPreview" className="py-24 bg-white">
-      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
+      <div className="container mx-auto px-6 lg:px-24 flex flex-col md:flex-row justify-center items-center gap-16">
         <div className="w-full md:w-1/2">
           <img 
             src="/masiqbal.webp" 

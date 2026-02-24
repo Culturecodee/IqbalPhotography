@@ -8,7 +8,7 @@ export default function FloatingWhatsApp() {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
-      whileInView={{ opacity: 1, scale: 1 }} // Menggunakan whileInView agar lebih aman saat scroll
+      animate={{ opacity: 1, scale: 1 }} // Menggunakan whileInView agar lebih aman saat scroll
       transition={{ 
         duration: 0.5, 
         delay: 2, 

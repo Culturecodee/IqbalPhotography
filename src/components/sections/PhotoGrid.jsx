@@ -12,7 +12,7 @@ const featuredPhotos = [
 export default function PhotoGrid() {
   return (
     <section className="py-24 bg-white px-6">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-6 lg:px-24">
         <Reveal>
         <div className="flex justify-between items-end mb-12">
           <div>

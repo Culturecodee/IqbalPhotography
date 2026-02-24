@@ -4,7 +4,7 @@ import Reveal from "./Reveal"
 export default function CTASection() {
   return (
     <Reveal>
-      <section className="py-20 bg-brand-light px-6">
+      <section className="py-20 bg-brand-light px-6 lg:px-24">
         <div className="container mx-auto max-w-4xl text-center bg-white p-12 md:p-20 rounded-3xl shadow-sm border border-brand-gold/10">
           <h2 className="font-serif text-3xl md:text-5xl mb-6">
             Let’s Secure Your Date Before It’s Fully Booked.
