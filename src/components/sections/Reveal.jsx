@@ -25,13 +25,11 @@ export default function Reveal({
     <motion.div
       initial={{ 
         opacity: 0, 
-        filter: "blur(2px)",
         x: directions[direction].x, 
         y: directions[direction].y 
       }}
       whileInView={{ 
         opacity: 1, 
-        filter: "blur(0px)",
         blur: 0, 
         x: 0, 
         y: 0 

@@ -56,7 +56,7 @@ export default function PhotoGrid() {
 
         {/* Mobile-only button */}
         <button className="w-full mt-8 md:hidden border border-brand-dark py-4 rounded-full text-sm uppercase tracking-widest">
-          Explore All
+          Explore All for The pictures
         </button>
       </div>
     </section>
